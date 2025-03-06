@@ -41,7 +41,6 @@ class _ImageCarouselState extends State<ImageCarousel> {
   final PageController _pageController = PageController();
   int _currentPage = 0;
   
-  // Список изображений из папки assets/images/
   final List<String> _images = [
     'assets/images/image1.jpeg',
     'assets/images/image2.jpeg',
@@ -78,7 +77,6 @@ class _ImageCarouselState extends State<ImageCarousel> {
             },
           ),
         ),
-        // Индикаторы текущей страницы
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: List.generate(_images.length, (index) {
