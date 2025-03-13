@@ -1,0 +1,20 @@
+--- adb starting (pid 15064) ---
+03-13 12:55:31.962 15064  8944 I adb     : main.cpp:63 Android Debug Bridge version 1.0.41
+03-13 12:55:31.962 15064  8944 I adb     : main.cpp:63 Version 35.0.2-12147458
+03-13 12:55:31.962 15064  8944 I adb     : main.cpp:63 Installed as C:\androidSDK\platform-tools\adb.exe
+03-13 12:55:31.962 15064  8944 I adb     : main.cpp:63 Running on Windows 10.0.26100
+03-13 12:55:31.962 15064  8944 I adb     : main.cpp:63 
+03-13 12:55:31.981 15064  8944 I adb     : auth.cpp:416 adb_auth_init...
+03-13 12:55:32.018 15064  8944 I adb     : auth.cpp:152 loaded new key from 'C:\Users\Айпери\.android\adbkey' with fingerprint 0780D48D8FCBA8471DB64842CA5D29D7CC7D8602C6AAB79E06DE56F7881B2618
+03-13 12:55:32.043 15064  8944 I adb     : udp_socket.cpp:170 AdbUdpSocket fd=2052
+03-13 12:55:32.043 15064  8944 I adb     : udp_socket.cpp:170 AdbUdpSocket fd=2053
+03-13 12:55:32.043 15064  8944 I adb     : udp_socket.cpp:274 SetMulticastOutboundInterface for index=15
+03-13 12:55:32.043 15064  8944 I adb     : udp_socket.cpp:533 bind endpoint=0.0.0.0:5353
+03-13 12:55:32.043 15064  8944 I adb     : udp_socket.cpp:274 SetMulticastOutboundInterface for index=15
+03-13 12:55:32.050 15064  8944 I adb     : udp_socket.cpp:558 bind endpoint=[0000:0000:0000:0000:0000:0000:0000:0000]:5353 scope_id=0
+03-13 12:55:32.050 15064  8944 I adb     : udp_socket.cpp:170 AdbUdpSocket fd=2054
+03-13 12:55:32.051 15064  8944 I adb     : udp_socket.cpp:170 AdbUdpSocket fd=2055
+03-13 12:55:32.051 15064  8944 I adb     : udp_socket.cpp:274 SetMulticastOutboundInterface for index=13
+03-13 12:55:32.051 15064  8944 I adb     : udp_socket.cpp:533 bind endpoint=0.0.0.0:5353
+03-13 12:55:32.051 15064  8944 I adb     : udp_socket.cpp:274 SetMulticastOutboundInterface for index=13
+03-13 12:55:32.051 15064  8944 I adb     : udp_socket.cpp:558 bind endpoint=[0000:0000:0000:0000:0000:0000:0000:0000]:5353 scope_id=0
