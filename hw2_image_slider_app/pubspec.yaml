@@ -1,0 +1,51 @@
+name: hw2_image_slider_app
+description: "A Flutter project with an image slider."
+
+# Prevent accidental publishing to pub.dev
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Cupertino Icons for iOS-style icons
+  cupertino_icons: ^1.0.8
+
+  # Carousel Slider for image slider functionality
+  carousel_slider: ^5.0.0
+
+  # HTTP for loading images from the network (optional)
+  http: ^1.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Linting package for better code quality
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add assets if you want to use local images
+  assets:
+    - assets/images/im1.jpg
+    - assets/images/im2.jpg  # Folder for local images
+
+  # Uncomment and add custom fonts if needed
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
