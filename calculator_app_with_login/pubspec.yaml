@@ -1,0 +1,26 @@
+name: calculator_app_with_login
+description: "A calculator application with login page."
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_login: ^4.0.0
+  math_expressions: ^2.0.0
+  shared_preferences: ^2.2.2
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
