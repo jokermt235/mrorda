@@ -1,16 +1,4 @@
-import 'dart:async';
-import 'dart:math';
 import 'package:flutter/material.dart';
-
-class SumCalculator {
-  Future<int> calculateSum(List<int> numbers) async {
-    int delay =
-        Random().nextInt(5) +
-        1; // Генерация случайной задержки от 1 до 5 секунд
-    await Future.delayed(Duration(seconds: delay));
-    return numbers.reduce((a, b) => a + b);
-  }
-}
 
 void main() {
   runApp(MyApp());
@@ -19,71 +7,63 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: CalculatorScreen(),
-    );
+    return MaterialApp(home: MyHomePage());
   }
 }
 
-class CalculatorScreen extends StatefulWidget {
+class MyHomePage extends StatefulWidget {
   @override
-  _CalculatorScreenState createState() => _CalculatorScreenState();
+  _MyHomePageState createState() => _MyHomePageState();
 }
 
-class _CalculatorScreenState extends State<CalculatorScreen> {
-  final TextEditingController _controller = TextEditingController();
-  final SumCalculator _calculator = SumCalculator();
-  int? _sum;
-  bool _isLoading = false;
+class _MyHomePageState extends State<MyHomePage> {
+  String _result = "Нажмите кнопку для выполнения операции";
 
-  void _calculateSum() async {
+  // Функция, которая возвращает Future
+  Future<String> fetchData() async {
+    await Future.delayed(Duration(seconds: 2)); // Симуляция задержки
+    // Исключение может быть выброшено
+    if (DateTime.now().second % 2 == 0) {
+      throw Exception('Ошибка при получении данных');
+    }
+    return "Данные успешно получены!";
+  }
+
+  // Метод для выполнения операции с обработкой ошибок
+  void _getData() {
     setState(() {
-      _isLoading = true;
-      _sum = null;
+      _result = "Загрузка...";
     });
 
-    List<int> numbers =
-        _controller.text
-            .split(',')
-            .map((e) => int.tryParse(e.trim()) ?? 0)
-            .toList();
-
-    int result = await _calculator.calculateSum(numbers);
-
-    setState(() {
-      _sum = result;
-      _isLoading = false;
-    });
+    // Используем try, catch и then для обработки результатов
+    fetchData()
+        .then((data) {
+          setState(() {
+            _result = data; // Успешный результат
+          });
+        })
+        .catchError((error) {
+          setState(() {
+            _result = error.toString(); // Обработка ошибки
+          });
+        });
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Асинхронный сумматор')),
-      body: Padding(
-        padding: EdgeInsets.all(16.0),
+      appBar: AppBar(title: Text("Flutter Try-Catch-Then Example")),
+      body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            TextField(
-              controller: _controller,
-              keyboardType: TextInputType.text,
-              decoration: InputDecoration(
-                labelText: 'Введите числа через запятую',
-              ),
+            Text(
+              _result,
+              textAlign: TextAlign.center,
+              style: TextStyle(fontSize: 18),
             ),
             SizedBox(height: 20),
-            ElevatedButton(
-              onPressed: _calculateSum,
-              child: Text('Вычислить сумму'),
-            ),
-            SizedBox(height: 20),
-            _isLoading
-                ? CircularProgressIndicator()
-                : _sum != null
-                ? Text('Результат: $_sum', style: TextStyle(fontSize: 24))
-                : Container(),
+            ElevatedButton(onPressed: _getData, child: Text("Получить данные")),
           ],
         ),
       ),
