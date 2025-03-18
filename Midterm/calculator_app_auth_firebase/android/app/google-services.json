@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "128921980097",
+    "project_id": "auth-firebase-58f4c",
+    "storage_bucket": "auth-firebase-58f4c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128921980097:android:745ffacf3494d9017c5840",
+        "android_client_info": {
+          "package_name": "com.example.calculator_app_auth_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARvCSnHkLFgIoZ7FjpuTv2UYFq04I3BPw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
