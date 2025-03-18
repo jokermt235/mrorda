@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- ImageView для отображения левого изображения -->
+    <ImageView
+        android:id="@+id/leftImageView"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_width="0dp"
+        android:layout_marginEnd="20dp"
+        android:layout_toStartOf="@id/centerImageView"
+        android:src="@drawable/image1"/>
+
+    <!-- ImageView для центрального изображения -->
+    <ImageView
+        android:id="@+id/centerImageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/image2"/>
+
+    <!-- ImageView для отображения правого изображения -->
+    <ImageView
+        android:id="@+id/rightImageView"
+        android:layout_height="300dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_width="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@id/centerImageView"
+        android:src="@drawable/image3"/>
+
+</RelativeLayout>
