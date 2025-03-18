@@ -24,8 +24,17 @@ class _SignInState extends State<SignIn> {
         title: Text('Sign in to Calculator App'),
         actions: <Widget>[
           TextButton.icon(
-            icon: Icon(Icons.person, color: Colors.white),
-            label: Text('Register', style: TextStyle(color: Colors.white)),
+            icon: Icon(Icons.person, color: Colors.black),
+            label: Text('Register', style: TextStyle(color: Colors.black)),
+            style: ButtonStyle(
+              backgroundColor: MaterialStateProperty.all(Colors.white),
+              overlayColor: MaterialStateProperty.all(Colors.transparent),
+              shape: MaterialStateProperty.all(
+                RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(8.0),
+                ),
+              ),
+            ),
             onPressed: () => widget.toggleView(),
           ),
         ],

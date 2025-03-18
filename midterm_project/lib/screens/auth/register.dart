@@ -24,8 +24,27 @@ class _RegisterState extends State<Register> {
         title: Text('Register for Calculator App'),
         actions: <Widget>[
           TextButton.icon(
-            icon: Icon(Icons.person, color: Colors.white),
-            label: Text('Sign In', style: TextStyle(color: Colors.white)),
+            icon: Icon(
+              Icons.person,
+              color: Colors.black,
+            ), // Изменен цвет иконки
+            label: Text(
+              'Sign In',
+              style: TextStyle(color: Colors.black),
+            ), // Изменен цвет текста
+            style: ButtonStyle(
+              backgroundColor: MaterialStateProperty.all(
+                Colors.white,
+              ), // Цвет фона кнопки
+              overlayColor: MaterialStateProperty.all(
+                Colors.transparent,
+              ), // Убирает эффект hover
+              shape: MaterialStateProperty.all(
+                RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(8.0), // Закругление углов
+                ),
+              ),
+            ),
             onPressed: () => widget.toggleView(),
           ),
         ],
