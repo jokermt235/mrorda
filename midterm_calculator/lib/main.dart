@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'calculator.dart';
 
-
 void main() {
   runApp(MyApp());
 }
@@ -33,13 +32,10 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   void initState() {
     super.initState();
-
-   
     _usernameController.addListener(_checkLoginEnabled);
     _passwordController.addListener(_checkLoginEnabled);
   }
 
-  
   void _checkLoginEnabled() {
     setState(() {
       _isLoginEnabled = _usernameController.text.isNotEmpty &&
@@ -47,24 +43,24 @@ class _LoginScreenState extends State<LoginScreen> {
     });
   }
 
-  
- void _login() {
-  if (_isLoginEnabled) {
-    Navigator.push(
-      context,
-      MaterialPageRoute(builder: (context) => CalculatorScreen()),
-    );
+  void _login() {
+    if (_isLoginEnabled) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => CalculatorScreen()),
+      ).then((_) {
+        _usernameController.clear();
+        _passwordController.clear();
+        setState(() {
+          _isLoginEnabled = false;
+        });
+      });
+    }
   }
-}
-
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Login"),
-        backgroundColor: Colors.deepPurple,
-      ),
       body: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(
@@ -78,7 +74,7 @@ class _LoginScreenState extends State<LoginScreen> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              
+              // Заголовок
               Text(
                 'Login',
                 style: TextStyle(
@@ -88,8 +84,8 @@ class _LoginScreenState extends State<LoginScreen> {
                 ),
               ),
               SizedBox(height: 40),
-              
-             
+
+              // Поле "Username"
               TextField(
                 controller: _usernameController,
                 decoration: InputDecoration(
@@ -105,7 +101,7 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
               SizedBox(height: 20),
 
-              
+              // Поле "Password"
               TextField(
                 controller: _passwordController,
                 obscureText: true,
@@ -122,13 +118,13 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
               SizedBox(height: 40),
 
-             
+              // Кнопка входа
               ElevatedButton(
                 onPressed: _isLoginEnabled ? _login : null,
                 child: Text('Login'),
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.deepPurple, 
-                  foregroundColor: Colors.white,       
+                  backgroundColor: Colors.deepPurple,
+                  foregroundColor: Colors.white,
                   padding: EdgeInsets.symmetric(vertical: 15, horizontal: 40),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30),
