@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "865724121902",
+    "project_id": "midtermauth",
+    "storage_bucket": "midtermauth.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865724121902:android:0c5b005764ccbbd951f0bf",
+        "android_client_info": {
+          "package_name": "com.example.midterm_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0Azlc6r8PBh1ZV9Y4c4mY2jwwr1L-f48"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865724121902:android:c51b37dc52b0763551f0bf",
+        "android_client_info": {
+          "package_name": "com.kylych"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0Azlc6r8PBh1ZV9Y4c4mY2jwwr1L-f48"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
