@@ -1,7 +1,0 @@
-*.class
- *.log
- *.pyc
- .gitignore
- *.swp
- .DS_Store
- .atom/
