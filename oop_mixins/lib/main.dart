@@ -70,7 +70,7 @@ mixin EngineMixin {
 
 mixin HornMixin {
   void honk() {
-    print('Бип-бип!');
+    print('Bip!');
   }
 }
 
