@@ -7,7 +7,7 @@ class ProfilesCubit extends Cubit<List<Profile>> {
   void addProfile(Profile profile) {
       final updatedList = List<Profile>.from(state);
       updatedList.add(profile);
-      print('Добавлен профиль: ${profile.name}, ${profile.age}'); // Отладочный вывод
+      print('Добавлен профиль: ${profile.name}, ${profile.age}'); 
       emit(updatedList);
   }
 

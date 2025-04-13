@@ -15,13 +15,11 @@ class ProfileListPage extends StatelessWidget {
           IconButton(
             icon: const Icon(Icons.add),
             onPressed: () {
-              // Переход на страницу создания профиля
               Navigator.pushNamed(context, '/create');
             },
           )
         ],
       ),
-      // Здесь мы используем BlocBuilder, чтобы строить список профилей
       body: BlocBuilder<ProfilesCubit, List<Profile>>(
         builder: (context, profiles) {
           if (profiles.isEmpty) {
