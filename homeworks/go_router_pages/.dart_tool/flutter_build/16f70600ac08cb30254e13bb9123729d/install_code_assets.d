@@ -1,0 +1,1 @@
+ /Users/aigerim/go_router_pages/.dart_tool/flutter_build/16f70600ac08cb30254e13bb9123729d/native_assets.json: 
