@@ -1,0 +1,27 @@
+name: local_storage_sqlflite
+description: "A Flutter project using local SQLite storage with sqflite package."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Добавлены для локального хранения
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
