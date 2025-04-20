@@ -14,7 +14,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-// ✅ Define GoRouter with 5 Pages
 final GoRouter _router = GoRouter(
   initialLocation: '/',
   routes: [
