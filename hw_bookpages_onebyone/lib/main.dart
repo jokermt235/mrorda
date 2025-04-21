@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'reader.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const ProviderScope(child: MyApp()));
 }
 
 class MyApp extends StatelessWidget {
@@ -10,11 +11,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final bookPages = ['page 1.', 'page 2.', 'page 3.', 'page 4.'];
-
-    return MaterialApp(
-      title: 'Book Reader',
-      home: BookReader(pages: bookPages),
-    );
+    return MaterialApp(title: 'Book Reader', home: const BookReader());
   }
 }
