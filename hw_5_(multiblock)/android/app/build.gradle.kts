@@ -40,5 +40,5 @@ android {
 }
 
 flutter {
-    source = "../.."
+    source = "hw_5_(multiblock)/android/app/src"
 }
