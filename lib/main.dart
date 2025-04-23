@@ -1,13 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:lesson9riverpod/book.dart';
 import 'package:lesson9riverpod/book_cover.dart';
 import 'package:lesson9riverpod/book_view.dart';
-import 'package:riverpod_annotation/riverpod_annotation.dart';
+import 'package:lesson9riverpod/cart/views/bloc/cart_bloc.dart';
+import 'package:lesson9riverpod/di.dart';
+import 'package:lesson9riverpod/my_cubit.dart';
+import 'package:lesson9riverpod/router.dart';
 
 import 'book_provider.dart';
 
-void main() {
+void main() async{
+  await initServiceLocator();
   runApp(
       ProviderScope(
           child: const MyApp()
@@ -21,12 +26,18 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+    return MultiBlocProvider(
+      providers: [
+        BlocProvider(
+            create:(BuildContext context) => MyCubit(),
+        ),
+        BlocProvider(
+          create:(BuildContext context) => CartBloc(repository: sl()),
+        ),
+      ],
+      child: MaterialApp.router(
+        routerConfig: routerConf,
       ),
-      home: RiverPage(),
     );
   }
 }
@@ -91,7 +102,6 @@ class MyHomePage extends ConsumerWidget{
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: ()=>{
-
         },
         tooltip: 'Increment',
         child: const Icon(Icons.add),
