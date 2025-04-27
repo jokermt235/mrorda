@@ -1,0 +1,1 @@
+ /Users/temir/AndroidStudioProjects/book_sale_application/.dart_tool/flutter_build/7819ffb8a7ed0a764139c9013b1a83f9/native_assets.json: 

@@ -1,0 +1,2 @@
+/Users/temir/AndroidStudioProjects/book_sale_application/android/app/.cxx/Debug/p1w3w312/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/temir/AndroidStudioProjects/book_sale_application/android/app/.cxx/Debug/p1w3w312/armeabi-v7a/CMakeFiles/rebuild_cache.dir
