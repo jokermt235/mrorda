@@ -1,0 +1,452 @@
+[
+  {
+    "id": "1",
+    "title": "Jamila",
+    "author": "Chingiz Aitmatov",
+    "price": 5.99,
+    "category": "Fiction",
+    "pages": 150,
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/en/7/70/Jamila_%28novel%29.jpg"
+  },
+  {
+    "id": "2",
+    "title": "The Day Lasts More Than a Hundred Years",
+    "author": "Chingiz Aitmatov",
+    "price": 6.99,
+    "category": "Fiction",
+    "pages": 155,
+    "coverUrl": "https://m.media-amazon.com/images/I/81xzKVxzgvL.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Farewell, Gulsary!",
+    "author": "Chingiz Aitmatov",
+    "price": 7.99,
+    "category": "Fiction",
+    "pages": 160,
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/en/2/25/Farewell%2C_Gulsary%21_cover.jpg"
+  },
+  {
+    "id": "4",
+    "title": "Flutter for Beginners",
+    "author": "Eric Windmill",
+    "price": 8.99,
+    "category": "Programming",
+    "pages": 165,
+    "coverUrl": "https://m.media-amazon.com/images/I/51X+HhVmMyL.jpg"
+  },
+  {
+    "id": "5",
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "price": 9.99,
+    "category": "Programming",
+    "pages": 170,
+    "coverUrl": "https://m.media-amazon.com/images/I/41xShlnTZTL.jpg"
+  },
+  {
+    "id": "6",
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt",
+    "price": 10.99,
+    "category": "Programming",
+    "pages": 175,
+    "coverUrl": "https://m.media-amazon.com/images/I/51A5cHQhSqL.jpg"
+  },
+  {
+    "id": "7",
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "price": 11.99,
+    "category": "Fantasy",
+    "pages": 180,
+    "coverUrl": "https://m.media-amazon.com/images/I/81YOuOGFCJL.jpg"
+  },
+  {
+    "id": "8",
+    "title": "1984",
+    "author": "George Orwell",
+    "price": 12.99,
+    "category": "Fiction",
+    "pages": 185,
+    "coverUrl": "https://m.media-amazon.com/images/I/71kxa1-0mfL.jpg"
+  },
+  {
+    "id": "9",
+    "title": "Animal Farm",
+    "author": "George Orwell",
+    "price": 13.99,
+    "category": "Fiction",
+    "pages": 190,
+    "coverUrl": "https://m.media-amazon.com/images/I/71k9cbqVRHL.jpg"
+  },
+  {
+    "id": "10",
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "price": 14.99,
+    "category": "Fiction",
+    "pages": 195,
+    "coverUrl": "https://m.media-amazon.com/images/I/81m1s4wIPML.jpg"
+  },
+  {
+    "id": "11",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "price": 15.99,
+    "category": "Fiction",
+    "pages": 200,
+    "coverUrl": "https://m.media-amazon.com/images/I/71VZcG5eK7L.jpg"
+  },
+  {
+    "id": "12",
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "price": 16.99,
+    "category": "Psychology",
+    "pages": 205,
+    "coverUrl": "https://m.media-amazon.com/images/I/71t4GuxLCuL.jpg"
+  },
+  {
+    "id": "13",
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "price": 17.99,
+    "category": "History",
+    "pages": 210,
+    "coverUrl": "https://m.media-amazon.com/images/I/713jIoMO3UL.jpg"
+  },
+  {
+    "id": "14",
+    "title": "Homo Deus",
+    "author": "Yuval Noah Harari",
+    "price": 18.99,
+    "category": "History",
+    "pages": 215,
+    "coverUrl": "https://m.media-amazon.com/images/I/71c4rbBRnGL.jpg"
+  },
+  {
+    "id": "15",
+    "title": "21 Lessons for the 21st Century",
+    "author": "Yuval Noah Harari",
+    "price": 19.99,
+    "category": "History",
+    "pages": 220,
+    "coverUrl": "https://m.media-amazon.com/images/I/71QKQ9mwV7L.jpg"
+  },
+  {
+    "id": "16",
+    "title": "The Art of War",
+    "author": "Sun Tzu",
+    "price": 20.99,
+    "category": "Philosophy",
+    "pages": 225,
+    "coverUrl": "https://m.media-amazon.com/images/I/81qU7hT0xfL.jpg"
+  },
+  {
+    "id": "17",
+    "title": "Rich Dad Poor Dad",
+    "author": "Robert Kiyosaki",
+    "price": 21.99,
+    "category": "Self-help",
+    "pages": 230,
+    "coverUrl": "https://m.media-amazon.com/images/I/81bsw6fnUiL.jpg"
+  },
+  {
+    "id": "18",
+    "title": "The Psychology of Money",
+    "author": "Morgan Housel",
+    "price": 22.99,
+    "category": "Finance",
+    "pages": 235,
+    "coverUrl": "https://m.media-amazon.com/images/I/71g2ednj0JL.jpg"
+  },
+  {
+    "id": "19",
+    "title": "Ikigai",
+    "author": "Hector Garcia",
+    "price": 23.99,
+    "category": "Self-help",
+    "pages": 240,
+    "coverUrl": "https://m.media-amazon.com/images/I/71KilybDOoL.jpg"
+  },
+  {
+    "id": "20",
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "price": 24.99,
+    "category": "Fiction",
+    "pages": 245,
+    "coverUrl": "https://m.media-amazon.com/images/I/81z5K5myE2L.jpg"
+  },
+  {
+    "id": "21",
+    "title": "Jamila (Edition 2)",
+    "author": "Chingiz Aitmatov",
+    "price": 25.99,
+    "category": "Fiction",
+    "pages": 250,
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/en/7/70/Jamila_%28novel%29.jpg"
+  },
+  {
+    "id": "22",
+    "title": "The Day Lasts More Than a Hundred Years (Edition 2)",
+    "author": "Chingiz Aitmatov",
+    "price": 26.99,
+    "category": "Fiction",
+    "pages": 255,
+    "coverUrl": "https://m.media-amazon.com/images/I/81xzKVxzgvL.jpg"
+  },
+  {
+    "id": "23",
+    "title": "Farewell, Gulsary! (Edition 2)",
+    "author": "Chingiz Aitmatov",
+    "price": 27.99,
+    "category": "Fiction",
+    "pages": 260,
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/en/2/25/Farewell%2C_Gulsary%21_cover.jpg"
+  },
+  {
+    "id": "24",
+    "title": "Flutter for Beginners (Edition 2)",
+    "author": "Eric Windmill",
+    "price": 28.99,
+    "category": "Programming",
+    "pages": 265,
+    "coverUrl": "https://m.media-amazon.com/images/I/51X+HhVmMyL.jpg"
+  },
+  {
+    "id": "25",
+    "title": "Clean Code (Edition 2)",
+    "author": "Robert C. Martin",
+    "price": 29.99,
+    "category": "Programming",
+    "pages": 270,
+    "coverUrl": "https://m.media-amazon.com/images/I/41xShlnTZTL.jpg"
+  },
+  {
+    "id": "26",
+    "title": "The Pragmatic Programmer (Edition 2)",
+    "author": "Andrew Hunt",
+    "price": 30.99,
+    "category": "Programming",
+    "pages": 275,
+    "coverUrl": "https://m.media-amazon.com/images/I/51A5cHQhSqL.jpg"
+  },
+  {
+    "id": "27",
+    "title": "Harry Potter and the Sorcerer's Stone (Edition 2)",
+    "author": "J.K. Rowling",
+    "price": 31.99,
+    "category": "Fantasy",
+    "pages": 280,
+    "coverUrl": "https://m.media-amazon.com/images/I/81YOuOGFCJL.jpg"
+  },
+  {
+    "id": "28",
+    "title": "1984 (Edition 2)",
+    "author": "George Orwell",
+    "price": 32.99,
+    "category": "Fiction",
+    "pages": 285,
+    "coverUrl": "https://m.media-amazon.com/images/I/71kxa1-0mfL.jpg"
+  },
+  {
+    "id": "29",
+    "title": "Animal Farm (Edition 2)",
+    "author": "George Orwell",
+    "price": 33.99,
+    "category": "Fiction",
+    "pages": 290,
+    "coverUrl": "https://m.media-amazon.com/images/I/71k9cbqVRHL.jpg"
+  },
+  {
+    "id": "30",
+    "title": "Brave New World (Edition 2)",
+    "author": "Aldous Huxley",
+    "price": 34.99,
+    "category": "Fiction",
+    "pages": 295,
+    "coverUrl": "https://m.media-amazon.com/images/I/81m1s4wIPML.jpg"
+  },
+  {
+    "id": "31",
+    "title": "The Great Gatsby (Edition 2)",
+    "author": "F. Scott Fitzgerald",
+    "price": 35.99,
+    "category": "Fiction",
+    "pages": 300,
+    "coverUrl": "https://m.media-amazon.com/images/I/71VZcG5eK7L.jpg"
+  },
+  {
+    "id": "32",
+    "title": "Thinking, Fast and Slow (Edition 2)",
+    "author": "Daniel Kahneman",
+    "price": 36.99,
+    "category": "Psychology",
+    "pages": 305,
+    "coverUrl": "https://m.media-amazon.com/images/I/71t4GuxLCuL.jpg"
+  },
+  {
+    "id": "33",
+    "title": "Sapiens (Edition 2)",
+    "author": "Yuval Noah Harari",
+    "price": 37.99,
+    "category": "History",
+    "pages": 310,
+    "coverUrl": "https://m.media-amazon.com/images/I/713jIoMO3UL.jpg"
+  },
+  {
+    "id": "34",
+    "title": "Homo Deus (Edition 2)",
+    "author": "Yuval Noah Harari",
+    "price": 38.99,
+    "category": "History",
+    "pages": 315,
+    "coverUrl": "https://m.media-amazon.com/images/I/71c4rbBRnGL.jpg"
+  },
+  {
+    "id": "35",
+    "title": "21 Lessons for the 21st Century (Edition 2)",
+    "author": "Yuval Noah Harari",
+    "price": 39.99,
+    "category": "History",
+    "pages": 320,
+    "coverUrl": "https://m.media-amazon.com/images/I/71QKQ9mwV7L.jpg"
+  },
+  {
+    "id": "36",
+    "title": "The Art of War (Edition 2)",
+    "author": "Sun Tzu",
+    "price": 40.99,
+    "category": "Philosophy",
+    "pages": 325,
+    "coverUrl": "https://m.media-amazon.com/images/I/81qU7hT0xfL.jpg"
+  },
+  {
+    "id": "37",
+    "title": "Rich Dad Poor Dad (Edition 2)",
+    "author": "Robert Kiyosaki",
+    "price": 41.99,
+    "category": "Self-help",
+    "pages": 330,
+    "coverUrl": "https://m.media-amazon.com/images/I/81bsw6fnUiL.jpg"
+  },
+  {
+    "id": "38",
+    "title": "The Psychology of Money (Edition 2)",
+    "author": "Morgan Housel",
+    "price": 42.99,
+    "category": "Finance",
+    "pages": 335,
+    "coverUrl": "https://m.media-amazon.com/images/I/71g2ednj0JL.jpg"
+  },
+  {
+    "id": "39",
+    "title": "Ikigai (Edition 2)",
+    "author": "Hector Garcia",
+    "price": 43.99,
+    "category": "Self-help",
+    "pages": 340,
+    "coverUrl": "https://m.media-amazon.com/images/I/71KilybDOoL.jpg"
+  },
+  {
+    "id": "40",
+    "title": "Crime and Punishment (Edition 2)",
+    "author": "Fyodor Dostoevsky",
+    "price": 44.99,
+    "category": "Fiction",
+    "pages": 345,
+    "coverUrl": "https://m.media-amazon.com/images/I/81z5K5myE2L.jpg"
+  },
+  {
+    "id": "41",
+    "title": "Jamila (Edition 3)",
+    "author": "Chingiz Aitmatov",
+    "price": 45.99,
+    "category": "Fiction",
+    "pages": 350,
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/en/7/70/Jamila_%28novel%29.jpg"
+  },
+  {
+    "id": "42",
+    "title": "The Day Lasts More Than a Hundred Years (Edition 3)",
+    "author": "Chingiz Aitmatov",
+    "price": 46.99,
+    "category": "Fiction",
+    "pages": 355,
+    "coverUrl": "https://m.media-amazon.com/images/I/81xzKVxzgvL.jpg"
+  },
+  {
+    "id": "43",
+    "title": "Farewell, Gulsary! (Edition 3)",
+    "author": "Chingiz Aitmatov",
+    "price": 47.99,
+    "category": "Fiction",
+    "pages": 360,
+    "coverUrl": "https://upload.wikimedia.org/wikipedia/en/2/25/Farewell%2C_Gulsary%21_cover.jpg"
+  },
+  {
+    "id": "44",
+    "title": "Flutter for Beginners (Edition 3)",
+    "author": "Eric Windmill",
+    "price": 48.99,
+    "category": "Programming",
+    "pages": 365,
+    "coverUrl": "https://m.media-amazon.com/images/I/51X+HhVmMyL.jpg"
+  },
+  {
+    "id": "45",
+    "title": "Clean Code (Edition 3)",
+    "author": "Robert C. Martin",
+    "price": 49.99,
+    "category": "Programming",
+    "pages": 370,
+    "coverUrl": "https://m.media-amazon.com/images/I/41xShlnTZTL.jpg"
+  },
+  {
+    "id": "46",
+    "title": "The Pragmatic Programmer (Edition 3)",
+    "author": "Andrew Hunt",
+    "price": 5.99,
+    "category": "Programming",
+    "pages": 375,
+    "coverUrl": "https://m.media-amazon.com/images/I/51A5cHQhSqL.jpg"
+  },
+  {
+    "id": "47",
+    "title": "Harry Potter and the Sorcerer's Stone (Edition 3)",
+    "author": "J.K. Rowling",
+    "price": 6.99,
+    "category": "Fantasy",
+    "pages": 380,
+    "coverUrl": "https://m.media-amazon.com/images/I/81YOuOGFCJL.jpg"
+  },
+  {
+    "id": "48",
+    "title": "1984 (Edition 3)",
+    "author": "George Orwell",
+    "price": 7.99,
+    "category": "Fiction",
+    "pages": 385,
+    "coverUrl": "https://m.media-amazon.com/images/I/71kxa1-0mfL.jpg"
+  },
+  {
+    "id": "49",
+    "title": "Animal Farm (Edition 3)",
+    "author": "George Orwell",
+    "price": 8.99,
+    "category": "Fiction",
+    "pages": 390,
+    "coverUrl": "https://m.media-amazon.com/images/I/71k9cbqVRHL.jpg"
+  },
+  {
+    "id": "50",
+    "title": "Brave New World (Edition 3)",
+    "author": "Aldous Huxley",
+    "price": 9.99,
+    "category": "Fiction",
+    "pages": 395,
+    "coverUrl": "https://m.media-amazon.com/images/I/81m1s4wIPML.jpg"
+  }
+]
