@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "title": "Coding for Kids",
+    "category": "Programming",
+    "coverUrl": "assets/images/1.jpg",
+    "price": 9.99,
+    "pages": 120,
+    "previewLink": "assets/preview/1.pdf"
+  },
+  {
+    "id": "2",
+    "title": "Learning Python",
+    "category": "Programming",
+    "coverUrl": "assets/images/2.jpg",
+    "price": 14.99,
+    "pages": 450,
+    "previewLink": "assets/preview/2.pdf"
+  },
+  {
+    "id": "3",
+    "title": "Python Crash Course",
+    "category": "Programming",
+    "coverUrl": "assets/images/3.jpg",
+    "price": 17.99,
+    "pages": 530,
+    "previewLink": "assets/preview/3.pdf"
+  },
+  {
+    "id": "4",
+    "title": "System Design V2",
+    "category": "Software Engineering",
+    "coverUrl": "assets/images/4.jpg",
+    "price": 21.50,
+    "pages": 380,
+    "previewLink": "assets/preview/4.pdf"
+  },
+  {
+    "id": "5",
+    "title": "The Pragmatic Programmer",
+    "category": "Software Engineering",
+    "coverUrl": "assets/images/5.jpg",
+    "price": 23.99,
+    "pages": 320,
+    "previewLink": "assets/preview/5.pdf"
+  },
+  {
+    "id": "6",
+    "title": "Art of Game Design",
+    "category": "Game Development",
+    "coverUrl": "assets/images/6.jpg",
+    "price": 26.00,
+    "pages": 480,
+    "previewLink": "assets/preview/6.pdf"
+  },
+  {
+    "id": "7",
+    "title": "Cracking the Coding Interview",
+    "category": "Interview Prep",
+    "coverUrl": "assets/images/7.jpg",
+    "price": 18.50,
+    "pages": 600,
+    "previewLink": "assets/preview/7.pdf"
+  },
+  {
+    "id": "8",
+    "title": "Agile Practice Guide",
+    "category": "Project Management",
+    "coverUrl": "assets/images/8.jpg",
+    "price": 13.99,
+    "pages": 210,
+    "previewLink": "assets/preview/8.pdf"
+  },
+  {
+    "id": "9",
+    "title": "Excel Beginner's Guide",
+    "category": "Productivity",
+    "coverUrl": "assets/images/9.jpg",
+    "price": 11.99,
+    "pages": 270,
+    "previewLink": "assets/preview/9.pdf"
+  },
+  {
+    "id": "10",
+    "title": "Vibe Coding",
+    "category": "AI & Development",
+    "coverUrl": "assets/images/10.jpg",
+    "price": 22.00,
+    "pages": 300,
+    "previewLink": "assets/preview/10.pdf"
+  }
+]
