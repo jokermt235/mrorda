@@ -42,9 +42,9 @@ class BookReaderPage extends ConsumerWidget {
       floatingActionButton: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          const SizedBox(width: 32), // отступ слева
+          const SizedBox(width: 32), 
           FloatingActionButton(
-            heroTag: 'prev', // уникальные heroTag для каждой кнопки
+            heroTag: 'prev', 
             onPressed: () => ref.read(bookProvider.notifier).previousPage(),
             child: const Icon(Icons.arrow_back),
           ),
@@ -53,7 +53,7 @@ class BookReaderPage extends ConsumerWidget {
             onPressed: () => ref.read(bookProvider.notifier).nextPage(),
             child: const Icon(Icons.arrow_forward),
           ),
-          const SizedBox(width: 32), // отступ справа
+          const SizedBox(width: 32), 
         ],
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
