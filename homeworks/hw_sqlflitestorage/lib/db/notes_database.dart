@@ -1,0 +1,57 @@
+import 'package:sqflite/sqflite.dart';
+import 'package:path/path.dart';
+import '../models/note.dart';
+
+class NotesDatabase {
+  static final NotesDatabase instance = NotesDatabase._init();
+  static Database? _database;
+
+  NotesDatabase._init();
+
+  Future<Database> get database async {
+    if (_database != null) return _database!;
+    _database = await _initDB('notes.db');
+    return _database!;
+  }
+
+  Future<Database> _initDB(String filePath) async {
+    final dbPath = await getDatabasesPath();
+    final path = join(dbPath, filePath);
+
+    return await openDatabase(
+      path,
+      version: 1,
+      onCreate: (db, version) {
+        return db.execute('''
+          CREATE TABLE notes (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            content TEXT NOT NULL
+          )
+        ''');
+      },
+    );
+  }
+
+  Future<Note> create(Note note) async {
+    final db = await instance.database;
+    final id = await db.insert('notes', note.toMap());
+    return note.copyWith(id: id);
+  }
+
+  Future<List<Note>> readAllNotes() async {
+    final db = await instance.database;
+    final result = await db.query('notes', orderBy: 'id DESC');
+    return result.map((map) => Note.fromMap(map)).toList();
+  }
+
+  Future close() async {
+    final db = await instance.database;
+    db.close();
+  }
+}
+
+extension NoteCopy on Note {
+  Note copyWith({int? id, String? content}) {
+    return Note(id: id ?? this.id, content: content ?? this.content);
+  }
+}
