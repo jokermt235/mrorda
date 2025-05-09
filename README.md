@@ -1,16 +1,19 @@
-# flutter_application_1
+# Calculator with authorization
 
-A new Flutter project.
+The Flutter calculator application, which includes authentication functions. 
+This project demonstrates the modular structure of the Flutter project by dividing the login, registration, and calculator screens into different files.
 
-## Getting Started
+## Functions
 
-This project is a starting point for a Flutter application.
+- **Simple Calculator:**
+- Perform basic arithmetic operations (addition, subtraction, multiplication, division)
+- User authentication **:**
+- Login screen with input confirmation and error messages
+- Logout function to return to the login screen
+- **User Registration:**
+    - Registration form with password confirmation and validation
+    - A simple in-memory user repository for demonstration purposes
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
