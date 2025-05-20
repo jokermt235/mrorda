@@ -1,0 +1,26 @@
+name: book_sale_app
+description: A Flutter book store app with BLoC, GoRouter, HTTP and local storage.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  go_router: ^10.1.2
+  http: ^0.13.5
+  shared_preferences: ^2.1.1
+  math_expressions: ^2.2.0
+  equatable: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
